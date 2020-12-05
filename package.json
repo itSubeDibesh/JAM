@@ -1,0 +1,22 @@
+{
+	"name": "JAM",
+	"version": "1.0.0",
+	"description": "A simple JavaScript API Maker using Express and MySQL.",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon app"
+	},
+	"keywords": [ "API Maker", "Javascript", "Node" ],
+	"author": [ "Dibesh Raj Subedi" ],
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mysql": "^2.18.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.6"
+	}
+}
