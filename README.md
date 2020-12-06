@@ -53,7 +53,7 @@ And finally open the terminal pointing to the cloned directory and run ``npm ins
 ___
 ## Creating API Endpoints
 Creating an API endpoint using the JAM framework is a piece of cake if you have your database created.
-1. Open [endopints](/endpoints) folder, copy and rename [``demo.js``](/endpoints/demo.js) file to your table name in the database.
+1. Open endopints folder, copy and rename [``demo.js``](/endpoints/demo.js) file to your table name in the database.
 1. Open the renamed file and rename demo from this line as your file name ``const _table = new table('demo');``.
 1. Open [`` route.conf.js``](/route.conf.js)
 1. Copy ``app.use('/demo', demo);`` and paste it inside constructor.
@@ -79,7 +79,7 @@ ___
  ## Registering Route
  If you have successfully created your first endpoint then you might skip this section. If not then let me explain you in detail.
 
-All the routes are registered on [`` route.conf.js``](/route.conf.js) file which is located on [root directory](/). Open the __route.conf.js__ file and 
+All the routes are registered on [`` route.conf.js``](/route.conf.js) file which is located on root directory. Open the __route.conf.js__ file and 
 follow the steps.
 1. Import the route file you created. If you have not imported the route file and stuck on importing it then don't worry just [click me](#importing-route-file).
 1. After you import the file you need to register the imported file to create an endpoint. To register endpoint create a new line under constructor.
